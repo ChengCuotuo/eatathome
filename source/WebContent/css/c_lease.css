@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	}
+body{
+	background:#e8ebc2;/*背景颜色*/
+	font-family:Verdana, Geneva, sans-serif;
+	margin:100px 0 20px 0;
+	}
+
+#dynamic{
+	text-align:center;
+	background:url(../images/blank.png) repeat-y center;
+	padding:20px 0 20px 0;
+	}
+#dynamic input[type="submit"]{
+	width:70px;
+	font-size:15px;
+	padding: 5px;
+	color: black;
+	line-height:20px;
+	background: url(../images/button-bg.png) repeat-x;
+	}
+#dynamic #photo{
+	padding:10px 0 20px 0;
+	width:794px;
+	}

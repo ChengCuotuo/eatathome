@@ -1,0 +1,202 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	}
+body{
+	background:#e8ebc2;/*背景颜色*/
+	font-family:Verdana, Geneva, sans-serif;
+	}
+	
+/*第一个块的排布---主题*/
+#theme #go_homepage{
+	position:fixed;
+	margin-top:20px;
+	margin-left:20px;
+	}
+#theme #go_homepage:hover{
+	height:91px;
+	}
+/*第二个块的排布---用户信息*/
+#showinfo{
+	position:fixed;
+	margin:115px 0 0 20px;/*上方空出100px，等着加页面的导航信息*/
+	padding:10px 50px 30px 10px;
+	width: 350px;
+	background:url(../images/black1.png) repeat-y;
+	}
+#showinfo2{
+	position:fixed;
+	margin:280px 0 0 20px;
+	padding:0 50px 10px 30px;
+	width: 320px;
+	background:url(../images/black1.png) repeat-y;
+	}
+
+#showinfo #sign{
+	float:left;
+	}
+#headimage{/*头像的设置*/	
+	border:3px solid  #d4a656;
+	float:left;/*左侧浮动，就可以在右侧添加信息*/
+	margin: 20px 0 0 20px;/*周围空格*/
+	width:130px;
+	}
+#showinfo2_menu{
+	list-style:none;/*取消列表的显示效果*/
+	}
+.menu{/*用户基本信息表单*/
+	list-style:none;/*取消列表的显示效果*/
+	margin:50px 0 0 180px;
+	}
+li{
+	padding-top:5px;/*每行的空格*/
+	}
+.user{/*文本内容设置*/
+	font-family:Verdana, Geneva, sans-serif;
+	color:#d4a656;
+	}
+.detail{
+	color: #364eb9;
+	font-family:Verdana, Geneva, sans-serif;
+	}
+#headimage:hover{/*链接经过时候的效果*/
+	border:solid  #e16e79;
+	}
+		
+/*第三块的排布---推荐信息*/
+#recommend{
+	position:fixed;
+	margin:350px 0 0 20px;
+	padding:10px 0 10px 10px;
+	width: 400px;
+	background:url(../images/black1.png) repeat-y;
+	}
+	
+#recommend li{
+	list-style-type:none;
+	width:340px;
+	margin:2px 0;
+	color:#d4a656;
+	}	
+#recommend a:hover{
+	color:#03C;
+	background-color:#e8ebc2;
+	}
+
+
+/*第四个块的排布--主体信息*/
+#info{
+	float:right;/*右浮动*/
+	width:960px;
+	padding-bottom:50px;
+	}
+	
+#info #head{
+	padding:15px 15px 15px 40px;
+	margin-top:20px;/*主体与评论之间的空白*/
+	margin-bottom:5px;/*动态用户的头像与内容之间的留白*/
+	line-height:30px;/*块内文本的高度*/
+	background:url(../images/black2.png) repeat-y;
+	}
+	
+
+#info #user_head{
+	margin-right:20px;/*用户的头像*/
+	float:left;/*左浮动*/
+	height:60px;/*设置高度*/
+	width:60px;/*设置宽度*/
+	/*圆角*/
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	}
+#info #body{
+	padding:15px 15px 20px 30px;
+	background:url(../images/black2.png) repeat-y;
+	}
+	
+#info #user_discrib{/*用户对图片的描述*/
+	margin:5px 0 5px 0;
+	text-indent:40px;
+	padding-bottom:10px;
+	}
+#info #user_photo{/*动态图片的大小*/
+	height:400px;
+	/*圆角*/
+	-moz-border-radius:12px;
+	-webkit-border-radius:12px;
+	border-radius:12px;
+	
+	/*阴影*/
+	-moz-box-shadow:10px 10px #a6a29e;
+	-webkit-box-shadow: 10px 10px #a6a29e;
+	box-shadow: 10px 10px #a6a29e;
+	}
+	
+/*对foot中的评论框和和好评差评的form进行区分*/
+#info #foot #myidea{
+	position:relative;
+	padding:0 15px 10px 22px;
+	background:url(../images/black2.png) repeat-y;
+	} 
+#info #foot #good_bad{
+	position:relative;
+	padding:0 15px 10px 520px;
+	background:url(../images/black2.png) repeat-y;
+	}
+#info button:hover{
+		cursor:pointer;/*手指形状*/
+		}	
+#info #dyncommon{
+	color:#364eb9;
+	padding : 0 0 0 20px;
+	background:url(../images/black2.png) repeat-y;
+	}
+#info #dyncommon ul{
+	width:660px;
+	padding:2px;
+	list-style:none;
+	}
+#info #dyncommon li{
+	padding:0 0 5px 0;
+	}
+	
+#info #dyncommon q{
+	color:#000;
+	}
+/*分享的按钮*/
+#share{
+	position:fixed;
+	margin-top:20px;
+	margin-left:1110px;
+	-moz-box-shadow:10px 10px #a6a29e;
+	-webkit-box-shadow: 10px 10px #a6a29e;
+	box-shadow: 10px 10px #a6a29e;
+	}
+#share img:hover{
+	height:86px;
+	}
+#menu{
+	position:fixed;
+	margin:130px 0 0 1110px;
+	padding:10px 0 10px 10px;
+	width: 200px;
+	background:url(../images/black1.png) repeat-y;
+	}
+#menu li{
+	list-style-type:none;
+	width:185px;
+	margin:2px 0;
+	}
+#menu a,a:visited{
+	display:block;
+	color:#d4a656;
+	padding:5px 12px;
+	text-decoration:none;
+	}
+#menu a:hover{
+	color:#03C;
+	background-color:#e8ebc2;
+	}

@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	}
+body{
+	background:#e8ebc2;/*背景颜色*/
+	}
+#images1,#images2{
+	float:left;
+	margin:60px 0 0 220px;}
+	
+#images1 img, #images2 img{
+	width:300px;
+	transition: all 0.6s;
+	}
+#images1 img:hover, #images2 img:hover{
+	width:400px;
+	transform: scale(1.4);}

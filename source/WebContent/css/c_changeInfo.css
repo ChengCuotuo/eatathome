@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	}
+body{
+	font-size:16px;
+	background:#e8ebc2;/*背景颜色*/
+	font-family:Verdana, Geneva, sans-serif;
+	}
+	
+#changeinfo #headimag{
+	float:left;
+	margin: 20px 0 0 400px;}
+#changeinfo #headimag img{
+	width:200px;
+	height:200px;}
+	
+#changeinfo #info{
+	float:right;
+	margin:20px 400px 0 0;}
+
+#changeinfo #info input,#changeinfo #headimag input{
+	width:200px;
+	height:30px;}
+
+#changeinfo #info #submit{
+	margin-top:4px;
+	margin-left:20px;}
+	
+/*主体信息*/
+#dynmic{
+	float:right;/*右浮动*/
+	width:1020px;
+	padding-bottom:50px;
+	}
+	
+#dynmic #head{
+	padding:15px 15px 15px 40px;
+	margin-top:20px;/*主体与评论之间的空白*/
+	margin-bottom:5px;/*动态用户的头像与内容之间的留白*/
+	line-height:30px;/*块内文本的高度*/
+	background:url(../images/black2.png) repeat-y;
+	}
+	
+
+#dynmic #user_head{
+	float:left;/*左浮动*/
+	height:60px;/*设置高度*/
+	width:60px;/*设置宽度*/
+	/*圆角*/
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	}
+#dynmic #body{
+	padding:15px 15px 20px 30px;
+	background:url(../images/black2.png) repeat-y;
+	}
+	
+#dynmic #user_discrib{/*用户对图片的描述*/
+	margin:5px 0 5px 0;
+	text-indent:40px;
+	padding-bottom:10px;
+	}
+#dynmic #user_photo{/*动态图片的大小*/
+	height:400px;
+	/*圆角*/
+	-moz-border-radius:12px;
+	-webkit-border-radius:12px;
+	border-radius:12px;
+	
+	/*阴影*/
+	-moz-box-shadow:10px 10px #a6a29e;
+	-webkit-box-shadow: 10px 10px #a6a29e;
+	box-shadow: 10px 10px #a6a29e;
+	}
+/*对foot中的评论框和和好评差评的form进行区分*/
+#dynmic #foot #myidea{
+	position:relative;
+	padding:0 15px 20px 22px;
+	background:url(../images/black2.png) repeat-y;
+	} 
+#dynmic #foot #good_bad{
+	position:relative;
+	padding:0 15px 10px 400px;
+	background:url(../images/black2.png) repeat-y;
+	}
+
+
+#dynmic button:hover{
+		cursor:pointer;/*手指形状*/
+		}	
+#dynmic #dyncommon{
+	color:#364eb9;
+	padding : 0 0 0 20px;
+	background:url(../images/black2.png) repeat-y;
+	}
+#dynmic #dyncommon ul{
+	width:660px;
+	padding:2px;
+	list-style:none;
+	}
+#dynmic #dyncommon li{
+	padding:0 0 5px 0;
+	}
+	
+#dynmic #dyncommon q{
+	color:#000;
+	}

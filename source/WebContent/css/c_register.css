@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+	}
+body{
+	font-family:Verdana, Geneva, sans-serif;
+	background:url(../images/registerbackground.jpg)  center -50px repeat #FFF;
+	color:#3CC;
+	}
+
+form {
+	position:fixed;
+	width: 500px;
+	padding: 300px 0px 0px 950px;
+	}
+legend {
+	display: none;/*隐藏标题*/
+	}
+fieldset {
+	border: 0;/*分割线也消失*/
+	}
+
+#message{
+	color:red;
+}
+
+	
+input{
+	width:200px;
+	display:block;
+	padding:4px;
+	font-size:18px;
+	padding-left:25px;
+	}
+input[type="submit"]{
+	float:left;
+	width:70px;
+	font-size:15px;
+	padding: 5px;
+	color: black;
+	margin-right:50px;
+	line-height:20px;
+	background: url(../images/button-bg.png) repeat-x;
+	}
+#name{
+	background:url(../images/name.gif) no-repeat 6px 6px;
+	}
+#password, #again{
+	background:url(../images/password.gif) no-repeat 6px 6px;
+	}
+.button:hover {
+	background: white;
+	color: black;
+	}
+
+#theme{
+	position:fixed;
+	margin:20px 0 0 20px;
+	width:250px;
+}
+
+#theme:hover{
+	margin:22px 0 0 22px;
+	} 

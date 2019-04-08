@@ -1,0 +1,265 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	}
+body{
+	background:#e8ebc2;/*背景颜色*/
+	font-family:Verdana, Geneva, sans-serif;
+	}
+/*第一个块的排布---主题*/
+#theme #go_homepage{
+	width:245px;
+	position:fixed;
+	float:left;
+	margin-top:20px;
+	margin-left:150px;
+	}
+/*头部*/
+#headimg #headimg{
+	position:fixed;
+	margin-top:20px;
+	margin-left:405px;
+	width:560px;
+	height:60px;
+	}
+#headimg #register{
+	position:fixed;
+	margin-top:20px;
+	margin-left:985px;
+	
+	/*阴影*/
+	-moz-box-shadow:10px 10px #a6a29e;
+	-webkit-box-shadow: 10px 10px #a6a29e;
+	box-shadow: 10px 10px #a6a29e;
+	}	
+#headimg #register:hover{
+	cursor:pointer;
+	}	
+	
+/*主内容*/
+#summary{
+	padding-top:100px;
+	float:left;
+	margin-left:410px;
+	}
+
+#summary #recomend{
+	margin-bottom:10px;
+	background:url(../images/black2.png) repeat-y;
+	width:340px;
+	
+	}
+
+#summary #recomend ul{
+	padding-right:20px;
+	float:left;
+	width:140px;
+	height:100px;
+	list-style:none;
+	}
+
+#summary img{
+	width:150px;
+	/*圆角*/
+	-moz-border-radius:12px;
+	-webkit-border-radius:12px;
+	border-radius:12px;
+	/*阴影*/
+	-moz-box-shadow:10px 10px #a6a29e;
+	-webkit-box-shadow: 10px 10px #a6a29e;
+	box-shadow: 10px 10px #a6a29e;
+	}
+
+#summary #recomend{
+	padding:20px 0 20px 20px;
+	}
+
+/*填补空白*/
+#fillinblanks{
+	padding-top:100px;
+	float:rigth;
+	margin-left:800px;
+	}
+
+#fillinblanks #recomend{
+	margin-bottom:10px;
+	background:url(../images/black2.png) repeat-y;
+	width:340px;
+	
+	}
+
+#fillinblanks #recomend ul{
+	padding-right:20px;
+	float:left;
+	width:140px;
+	height:100px;
+	list-style:none;
+	}
+
+#fillinblanks img{
+	width:150px;
+	/*圆角*/
+	-moz-border-radius:12px;
+	-webkit-border-radius:12px;
+	border-radius:12px;
+	/*阴影*/
+	-moz-box-shadow:10px 10px #a6a29e;
+	-webkit-box-shadow: 10px 10px #a6a29e;
+	box-shadow: 10px 10px #a6a29e;
+	}
+
+#fillinblanks #recomend{
+	padding:20px 0 20px 20px;
+	}
+
+/*主内容*/
+#info{
+	float:right;
+	width:940px;
+	margin:100px 0 100px 0;
+	}
+
+#info div h3{
+	margin-top:10px;
+	color:rgb(192, 174, 125);
+	}
+	
+		
+#info div{
+	background:url(../images/black2.png);
+	width:600px;
+	}
+	
+#info div ul li{
+	list-style:none;
+	}
+	
+#info #head{
+	float:left;
+	padding-top:10px;
+	padding-left:40px;
+	}
+	
+#info #head li{
+	margin-right:460px;
+	}	
+	
+#info #head h2{
+	margin-left:120px;
+	font-size:36px;
+	}
+
+#info #head img{
+	float:right;
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-right:40px;
+	width:400px;
+	/*圆角*/
+	-moz-border-radius:12px;
+	-webkit-border-radius:12px;
+	border-radius:12px;
+	/*阴影*/
+	-moz-box-shadow:5px 5px #a6a29e;
+	-webkit-box-shadow: 5px 5px #a6a29e;
+	box-shadow: 5px 5px #a6a29e;
+	}
+	
+#divide{
+	margin-bottom:20px;}
+#info #body{
+	float:left;
+	padding-left:40px;
+	}
+		
+#info #body p{
+	margin-right:20px;
+	}
+	
+#info #body img{
+	float:none;
+	border:outset;
+	border-color:#a6a29e;
+	margin-bottom:20px;
+	}
+
+/*导航*/
+#classify{
+	width:240px;
+	margin-top:100px;
+	margin-left:150px;
+	position:fixed;
+	background:url(../images/black1.png) repeat-y;
+	}
+	
+#classify #list li:nth-child(2n){
+	background-color:#efefef;
+	width:220px;
+	}
+	
+#classify li{
+	list-style:none;
+	line-height:30px;
+	margin:10px 0 10px 10px;
+	}
+#classify li a{
+	color:#03F;
+	text-decoration:none;
+	font-size:18px;
+	padding-left:60px;
+	}
+#classsify dt{
+	font-size:18px;
+	color:#000;
+	}
+#classify .left_link{
+	font-size:18px;
+	color:#000;
+	}
+#classify .left_link:hover{
+	color:#F00;
+	}
+#classify div{
+	display:none;
+	}
+	
+#classify li:hover{
+	width:210px;
+	background:#efefef;
+	}
+
+#classify #ali1:hover div, #classify #ali2:hover div, #classify #ali3:hover div, #classify #ali4:hover div{
+	position:absolute;
+	width:300px;
+	left:220px;
+	top:-70px;
+	display:block;
+	background:#efefef;
+	}
+
+#classify #ali5:hover div, #classify #ali6:hover div, #classify #ali7:hover div{
+	position:absolute;
+	width:300px;
+	left:220px;
+	top:20px;
+	display:block;
+	background:#efefef;
+	}
+#classify #ali7:hover div, #classify #ali8:hover div, #classify #ali9:hover div, #classify #ali10:hover div{
+	position:absolute;
+	width:300px;
+	left:220px;
+	top:140px;
+	display:block;
+	background:#efefef;
+	}
+#classify #ali11:hover div{
+	position:absolute;
+	width:300px;
+	left:150px;
+	top:400px;
+	display:block;
+	background:#efefef;
+	}
